@@ -1,7 +1,25 @@
-# soyicedlatte
-This is the README file for soyicedlatte.com. Welcome.
+---
+title: "Viridis Demo 2"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
 
+```{r include = FALSE}
+library(viridis)
+```
 
-### Why is this happening?
-That is a good question, and one I refuse to answer.
+The code below demonstrates two color palettes in the [viridis](https://github.com/sjmgarnier/viridis) package. Each plot displays a contour map of the Maunga Whau volcano in Auckland, New Zealand.
 
+## Viridis colors
+
+```{r}
+image(volcano, col = viridis(200))
+```
+
+## Magma colors
+
+```{r}
+image(volcano, col = viridis(200, option = "A"))
+```
