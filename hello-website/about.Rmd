@@ -1,9 +1,0 @@
----
-title: "About This Website"
----
-
-More about this website. This is a little bit more, too.
-
-And a little bit more!
-
-<p>Copyright &copy; 2016 Skynet, Inc. All rights reserved.</p>
